@@ -144,4 +144,6 @@ margen                                    margen
 - **Catálogo:** cada tarjeta de producto ocupa 2 columnas (156 dp), por lo que caben 2 por fila.
 
 
+PALABRA DEL DÍA: Despertador
+
 
