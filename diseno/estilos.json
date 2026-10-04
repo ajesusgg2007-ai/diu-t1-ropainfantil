@@ -1,0 +1,44 @@
+{
+  "propietario": "ajesusgg2007-ai",
+  "tienda": "Garceran Babees",
+  "colorSemilla": "#0077BE",
+  "esquema": {
+    "claro": {"primary": "#00629E","onPrimary": "#FFFFFF","primaryContainer": "#CFE5FF","onPrimaryContainer": "#001D34",
+              "secondary": "#526070","onSecondary": "#FFFFFF","tertiary": "#695779","onTertiary": "#FFFFFF",
+              "surface": "#FCFCFF","onSurface": "#1A1C1E","error": "#BA1A1A","onError": "#FFFFFF"
+    },
+    "oscuro": {
+      "primary": "#9ACBFF",
+      "onPrimary": "#003355",
+      "primaryContainer": "#004A79",
+      "onPrimaryContainer": "#CFE5FF",
+      "secondary": "#BAC8DA",
+      "onSecondary": "#243240",
+      "tertiary": "#D4BEE6",
+      "onTertiary": "#392A49",
+      "surface": "#1A1C1E",
+      "onSurface": "#E2E2E5",
+      "error": "#FFB4AB",
+      "onError": "#690005"
+    }
+  },
+  "tipografia": {
+    "familia": "Roboto",
+    "roles": {
+      "headlineSmall": {"tamano": 24,"interlineado": 32,"peso": 400},
+      "titleLarge": {"tamano": 22,"interlineado": 28,"peso": 400},
+      "titleMedium": {"tamano": 16,"interlineado": 24,"peso": 500},
+      "bodyLarge": {"tamano": 16,"interlineado": 24,"peso": 400},
+      "labelLarge": {"tamano": 14,"interlineado": 20,"peso": 500
+      }
+    }
+  },
+  "espaciado": {"base": 8,"margenPantalla": 16,"columnas": 4,"areaTactilMinima": 48},
+  "componentes": ["Top app bar","Navigation bar","Card","Filter chip","Button","Text field","Snackbar","Bottom sheet"],
+  "componentesPropios": [
+    {"nombre": "TarjetaProducto", "variantes": ["normal","favorito","agotado"]},
+    {"nombre": "SelectorTalla","variantes": [ "disponible", "seleccionada", "sin stock"]}
+    ]
+
+}
+  
