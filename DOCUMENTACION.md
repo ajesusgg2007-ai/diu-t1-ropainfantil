@@ -1,25 +1,25 @@
-1. Justificación del Diseño:
-• Importancia del Diseño Centrado en el Usuario: 
+1.1 Justificación del Diseño:
+- Importancia del Diseño Centrado en el Usuario: 
 
 La importancia de este sale de el hecho de que un producto tiene buen valor si este es hergonómico. 
 
-• Objetivos y Metas del Proyecto: Definición clara de lo que se espera lograr
+- Objetivos y Metas del Proyecto: Definición clara de lo que se espera lograr
 con el diseño.
 
 Se intenta hacer una interfaz clara y intuitiva para el usuario.
 
-• Beneficios Esperados: Ventajas que el diseño aportará tanto al usuario final
+- Beneficios Esperados: Ventajas que el diseño aportará tanto al usuario final
 como al negocio o aplicación.
 
 El negocio puede aprender y corregir lo que el público quiere, mientras que el usurio recive una buena interfaz de alta calidad, que reduce la pérdida de tiempo.
 
 2. Investigación y Análisis de Usuarios:
-• Datos Demográficos y Segmentación: Información sobre el grupo objetivo
-al que va dirigido el diseño.
+
+- Datos Demográficos y Segmentación
 
 El público objetivo o Target audience, es de adultos que compran ropa para niños, como madres y padre jóvenes, abuelos o familiares cercanos, o compradores de regalos.
 
-• Necesidades y Comportamientos: Identificación de lo que los usuarios
+- Necesidades y Comportamientos: Identificación de lo que los usuarios
 esperan y cómo interactúan con aplicaciones similares.
 
 Los usuarios esperan encontrar la talla adecuada de ropa, poder usar filtros para encontrar rápido la ropa por talla, género, color...
@@ -48,7 +48,7 @@ Adolfo Gómez, 61 años, va a ser abuelo y va a regalarle ropa al niño para cua
 
 Conclusión: Priorizar talla por edad y altura, un carrito rápido y persistente, y accesibilidad desde el primer día.
 
-• Insights y Hallazgos Clave: Puntos importantes descubiertos durante la fase
+- Insights y Hallazgos Clave: Puntos importantes descubiertos durante la fase
 de investigación que influirán en el diseño.
 
 -Como el usuario va a ser adulto normalmente, hacer la página a medida para esta edad, a pesar de que el producto esté destinado a otro tipo de audiencia.
@@ -59,7 +59,7 @@ de investigación que influirán en el diseño.
 
 -La Confianza al comprar un producto es indispensable, por lo que habría que ofrecer imágenes de calidad, vistas de detalle, medidas y, cuando sea posible, fotos en niños reales
 
-3.1 Diseño de interfaz
+3.it Diseño de interfaz
 ```mermaid
 flowchart TD
     subgraph NAV["Barra de navegación inferior"]
@@ -73,7 +73,6 @@ flowchart TD
     P1 -->|Categoría o edad| P2
     P1 -->|Producto destacado| P3["3. Detalle de producto"]
     P2 -->|Elegir prenda| P3
-    P6 -->|Elegir prenda| P3
     P3 -->|Guardar| P6
     P3 -->|Añadir al carrito| P4
     P3 -->|Guía de tallas| G["Guía de tallas (modal)"]
@@ -90,33 +89,38 @@ flowchart TD
 3.3
 
 primary / onPrimary	
+
 #00629E / #FFFFFF	6,48:1
 #9ACBFF / #003355	7,70:1
 
 primaryContainer / onPrimaryContainer	
+
 #CFE5FF / #001D34	13,31:1	
 #004A79 / #CFE5FF	7,23:1
 
 secondary / onSecondary	
+
 #526070 / #FFFFFF	6,43:1	
 #BAC8DA / #243240	7,70:1
 
 tertiary / onTertiary	
+
 #695779 / #FFFFFF	6,48:1	
 #D4BEE6 / #392A49	7,69:1
 
 surface / onSurface	
+
 #FCFCFF / #1A1C1E	16,69:1	
 #1A1C1E / #E2E2E5	13,22:1
 
 error / onError	
+
 #BA1A1A / #FFFFFF	6,46:1	
 #FFB4AB / #690005	7,72:1
 
-3.4
 #### Rejilla y medidas
 
-Todas las pantallas usan frames Android Compact de 360×800 dp con la siguiente rejilla, aplicada en Figma como *layout grid*:
+Todas las pantallas usan frames Android Compact de 360×800 dp con la siguiente rejilla, aplicada en Figma como layout grid:
 
 | Parámetro | Valor |
 |---|---|
@@ -127,23 +131,38 @@ Todas las pantallas usan frames Android Compact de 360×800 dp con la siguiente 
 | Unidad base | 8 dp |
 | Área táctil mínima | 48×48 dp |
 
-Reparto del ancho de 360 dp (margen, columna, gutter, columna…):
+Reparto del ancho de 360 dp:
 
-```text
-|16|  70  |16|  70  |16|  70  |16|  70  |16|
- ↑                                          ↑
-margen                                    margen
-```
 
 16 + 70 + 16 + 70 + 16 + 70 + 16 + 70 + 16 = 360 dp.
 
-**Criterios de diseño:**
+4.Validación y pruebas
 
-- **Múltiplos de 8 dp:** márgenes, separación entre columnas, espaciados y tamaño de los componentes (8, 16, 24, 32, 40, 48, 56, 64). El ancho de las columnas (70 dp) es el resultado de dividir el espacio sobrante y por eso no es múltiplo de 8.
-- **Áreas táctiles:** cualquier elemento interactivo (botones, chips, iconos, selector de talla) mide al menos 48×48 dp. Si el elemento se ve más pequeño, el área de toque se amplía hasta esa medida.
-- **Catálogo:** cada tarjeta de producto ocupa 2 columnas (156 dp), por lo que caben 2 por fila.
+4.1
+
+-Que al usuario le llegen novedades de la ropa en el menor tiempo posible (aprox. 5 segundos después de abrir la app).
+
+-Que la validación de los datos bancarios tarde como máximo 3 seg.
+
+-La atención al cliente, al pasar con un ayudante humano, que este tarde menos de medio min en contestar al usuario 
+
+4.2
+
+|  | Tiempo objetivo |Sofia Gómez |Antonio ruiz|resultado|hallazgo|
+|---|---|---|---|---|---|
+|Novedades de ropa al abrir la app | < 5segs|4.2 segs|3.8 segs|Pasado|Rendimiento óptimo en carga de novedades: Ambos recibieron las novedades de ropa por debajo del límite de 5 segundos.
+| Validación de datos bancarios | <3 segs|2.5 segs|3.2 segs|Pasado(Por muy poco)|Cuello de botella en la pasarela bancaria: Hubo un pequeño problema con la validación de datos en uno de los casos.
+| Respuesta de agente humano en soporte|<30 segs|18 segs|24 segs|Pasado|La atención de soporte fue eficiente. Los tiempos de respuesta del equipo humano fueron de 18 segundos y 24 segundos.
+
+
 
 
 PALABRA DEL DÍA: Despertador
+
+4.3
+
+ITERACIÓN:
+
+Se ha añadido a la ventana de carrito una sección e3n la que el algoritmo recomienda una sección de prendas en base a lo que ha puesto el usuario en el carrito.
 
 
