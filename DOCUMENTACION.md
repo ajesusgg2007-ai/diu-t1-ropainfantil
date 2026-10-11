@@ -166,3 +166,9 @@ ITERACIÓN:
 Se ha añadido a la ventana de carrito una sección e3n la que el algoritmo recomienda una sección de prendas en base a lo que ha puesto el usuario en el carrito.
 
 
+5.ENTREGA Y JUSTIFICACIÓN FINAL:
+
+5.1
+
+El diseño escogido viene de quien compra ropa infantil es un adulto con poco tiempo y que estas cosas normalmente se compran por móvil, cada decisión en la app intenta reducir el equivocarse de talla, que entiende lo que que esté pagando y su compra termine con el mínimo trabajo hecho.
+
