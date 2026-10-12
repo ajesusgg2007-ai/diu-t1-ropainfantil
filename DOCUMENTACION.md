@@ -8,23 +8,7 @@ con el diseño.
 
 Se intenta hacer una interfaz clara y intuitiva para el usuario.
 
-- Beneficios Esperados: Ventajas que el diseño aportará tanto al usuario final
-como al negocio o aplicación.
-
-El negocio puede aprender y corregir lo que el público quiere, mientras que el usurio recive una buena interfaz de alta calidad, que reduce la pérdida de tiempo.
-
-2. Investigación y Análisis de Usuarios:
-
-- Datos Demográficos y Segmentación
-
-El público objetivo o Target audience, es de adultos que compran ropa para niños, como madres y padre jóvenes, abuelos o familiares cercanos, o compradores de regalos.
-
-- Necesidades y Comportamientos: Identificación de lo que los usuarios
-esperan y cómo interactúan con aplicaciones similares.
-
-Los usuarios esperan encontrar la talla adecuada de ropa, poder usar filtros para encontrar rápido la ropa por talla, género, color...
-O tener un gestor de ayuda al cliente fácil y  accesible. 
-
+1.2
 
 TRES OBJETIVOS MEDIBLES:
 
@@ -34,11 +18,34 @@ TRES OBJETIVOS MEDIBLES:
 
 -Poder introducir los datos de envío y bancarios con eficiencia y seguridad.
 
+
+1.3
+ Beneficios Esperados: Ventajas que el diseño aportará tanto al usuario final
+como al negocio o aplicación.
+
+El negocio puede aprender y corregir lo que el público quiere, mientras que el usurio recive una buena interfaz de alta calidad, que reduce la pérdida de tiempo.
+
+
+2. Investigación y Análisis de Usuarios:
+
+2.1 Datos Demográficos y Segmentación
+
+El público objetivo o Target audience, es de adultos que compran ropa para niños, como madres y padre jóvenes, abuelos o familiares cercanos, o compradores de regalos.
+
+- Necesidades y Comportamientos: Identificación de lo que los usuarios
+esperan y cómo interactúan con aplicaciones similares.
+
+Los usuarios esperan encontrar la talla adecuada de ropa, poder usar filtros para encontrar rápido la ropa por talla, género, color...
+O tener un gestor de ayuda al cliente fácil y  accesible. 
+
+2.2
+
 Ana Mena, 45 años, Su hijo de tres años se ha roto los pantalones y necesita unos nuevos, quiere comprar unos nuevos, necesita que lleguen pronto para un evento familiar que tiene.
 
 Adolfo Gómez, 61 años, va a ser abuelo y va a regalarle ropa al niño para cuando este nazca, pero los padres no quieren que se sepa el género del bebé hasta el parto.
 
 
+2.3
 
 | App     | Qué hacen bien        | Qué hacen mal       |
 |---------|-----------------------|---------------------|
@@ -171,4 +178,21 @@ Se ha añadido a la ventana de carrito una sección e3n la que el algoritmo reco
 5.1
 
 El diseño escogido viene de quien compra ropa infantil es un adulto con poco tiempo y que estas cosas normalmente se compran por móvil, cada decisión en la app intenta reducir el equivocarse de talla, que entiende lo que que esté pagando y su compra termine con el mínimo trabajo hecho.
+
+5.2
+RECOMENDACIONES:
+
+-Validar con más usuarios y más perfiles. Las pruebas se hicieron con pocas personas. Es buena idea repetir las pruebas con más participantes, incluyendo abuelos y compradores de regalo, ya que abuelos y compradores de regalo necesitan más orientación, y con distintos niveles de experiencia con el móvil.
+
+-Reforzar la ayuda con las tallas. La ayuda con las tallas es la principal fuente de dudas y devoluciones. Se recomienda un asistente de tallas por edad y altura. También se recomienda crear perfiles por hijo con aviso de cambio de talla.
+
+-Medir en uso real, medir en uso real. Conversión, conversión. Abandono de carrito, abandono de carrito. Devoluciones por talla, devoluciones por talla.
+
+6.REFERENCIAS BIBLIOGRÁFICAS
+
+«Material Design 3 - Google’s Latest Open Source Design System». Material Design. https://m3.material.io/ (12 de octubre de 2026).
+«Mayoral España | Tienda de Ropa Infantil y Moda Online». mayoral.com. https://www.mayoral.com/es/es/ (12 de octubre de 2026).
+«Moda Infantil | ZARA España». https://www.zara.com/es/es/ninos-mkt1.html (12 de octubre de 2026).
+«Vinted | La app para todas las cosas de segunda mano». https://www.vinted.es/ (12 de octubre de 2026).
+
 
